@@ -1,0 +1,23 @@
+.html {
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+.body{
+	font-family:fantasy;
+	font-size:2rem;
+	background:#87cefa;
+	color:#000000;
+	max-width: 35rem;
+	margin: 0 auto;
+}
+.hero-image{
+	max-width: 100%;
+}
+.cool-background{
+	background-image: url("pexels-photo-189349.png");
+}
+@media (min-width:40rem){
+	.link-list{flex-direction:row}
+}
